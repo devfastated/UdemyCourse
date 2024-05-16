@@ -31,4 +31,9 @@ class ExampleController extends Controller
     public function aboutPage() {
         return view('about');
     }
+
+    public function singlePostPage(){
+        return view('single-post');
+    }
+
 }
